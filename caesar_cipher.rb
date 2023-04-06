@@ -1,3 +1,5 @@
+# Caesar encryption
+
 def caesar_cipher(string_to_be_encoded, shift)
     # Getting the ascii values of each char
     ascii_values = string_to_be_encoded.each_byte.to_a
